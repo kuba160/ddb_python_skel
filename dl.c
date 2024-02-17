@@ -35,7 +35,7 @@ int main(int argc, char *argv[]) {
     printf("python_load called\n");
 
     if (!plug) {
-        printf("loading plugin failed\n");
+        printf("plugin did not return a valid DB_plugin_t\n");
         return 1;
     }
 

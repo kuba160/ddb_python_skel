@@ -2,10 +2,6 @@
 # SPDX-License-Identifier: CC-PDDC
 
 include "deadbeef.pxd"
-from libc.stdio cimport printf
-from libc.string cimport strdup,memcpy
-from libc.stdlib cimport malloc,free
-import cython
 
 cdef extern from "lpython.h":
     void lpython_init()
